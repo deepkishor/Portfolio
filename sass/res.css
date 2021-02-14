@@ -1,0 +1,55 @@
+@media (max-width: 767px) {
+  .main .left,
+  .main .right-pic {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .main .left {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    text-align: center;
+    margin-top: 0;
+  }
+  .left .text1 {
+    padding-left: 0;
+    margin-top: 45px;
+  }
+  .left .text2 {
+    padding-left: 0;
+    font-size: 4rem;
+    margin-top: 20px;
+  }
+  .left .text3 {
+    font-size: 2.4rem;
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .left span {
+    font-size: 4.6rem;
+    color: #ff9f43;
+    font-family: 'Playball', cursive;
+  }
+  .btn {
+    font-size: 1.8rem;
+    line-height: .6;
+    margin-top: 40px;
+    margin-left: 0;
+    height: 10%;
+  }
+  .right-pic {
+    margin-top: 10px;
+  }
+  .right-pic .img-box {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 574px) {
+  .right-pic .img-box {
+    max-width: 260px;
+  }
+}
+/*# sourceMappingURL=res.css.map */
