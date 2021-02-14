@@ -14,22 +14,25 @@
     .left .text1{
         padding-left: 0;
         margin-top: 45px;
+        font-size: 3.3rem;
     }
 
     .left .text2{
         padding-left: 0;
         font-size: 4rem;
         margin-top: 20px;
+        font-size: 4rem;
     }
 
     .left .text3{
         font-size: 2.4rem;
         padding-left: 0;
-        margin-top: 30px;
+        margin-top: 20px;
+        font-size: 2rem;
     }
 
     .left span{
-        font-size: 4.6rem;
+        font-size: 3.6rem;
         color: #ff9f43;
         font-family: 'Playball', cursive;
     }
@@ -48,6 +51,20 @@
 
     .right-pic .img-box{
         max-width: 350px;
+    }
+
+    .effect-1{
+        right: 8%;
+        bottom: 50%;
+    }
+
+    .effect-2{
+        left: 6%;
+        bottom: 40%;
+    }
+
+    .effect-3{
+        left: 30%;
     }
 }
 
