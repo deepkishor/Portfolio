@@ -1,0 +1,213 @@
+@media (max-width: 768px){
+    .site{
+        height: 380px;
+    }
+
+    nav{
+        height: 40px;
+    }
+
+    .logo{
+        height: 40px;
+    }
+
+    .logo img{
+        height: 30px;
+    }
+
+    .menu{
+        height: 40px;
+    }
+
+    .menu ul{
+        height: 40px;
+    }
+
+    .menu ul li{
+        font-size: 14px;
+    }
+
+    .leftside{
+        margin-top: 60px;
+        padding: 40px 80px;
+    }
+
+    .leftside h1{
+        font-size: 40px;
+    }
+
+    .leftside h3{
+        font-size: 18px;
+        padding: 20px 0;
+    }
+
+    .leftside p{
+        font-size: 12px;
+    }
+    
+    .leftside a{
+        margin-left: 40px;
+    }
+
+    .leftside .hire{
+        width: 40%;
+        margin-bottom: 20px;
+        font-size: 14px;
+        margin-top: 20px;
+        padding: 2px 10px;
+    }
+
+    .rightside{
+        margin-top: 60px;
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+
+    .rightside img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .myinfo{
+        width: 90%;
+        height: 280px;
+        margin: -4% auto 20px auto;
+    }
+
+    .myinfo img{
+        height: 180px;
+    }
+
+    .about-text{
+        width: 350px;
+    }
+
+    .about-text h3{
+        font-size: 30px;
+    }
+
+    .about-text h4{
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+
+    .about-text p{
+        font-size: 14px;
+    }
+
+    .download{
+        margin-bottom: 10px;
+        width: 40%;
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    .about-text a{
+        margin-left: 80px;
+    }
+
+    .skills{
+        width: 90%;
+        height: 370px;
+    }
+
+    .skills h1{
+        font-size: 30px;
+    }
+
+    .left{
+        height: 320px;
+        padding-top: 10px;
+    }
+     
+     .right p{
+         padding-top: 4px;
+     }
+     
+     .right h3{
+         padding-top: 40px;
+     }
+
+     .work{
+        height: 360px;
+    }
+
+    .work h1{
+        font-size: 30px;
+    }
+
+    .gallery{
+        height: 260px;
+    }
+
+    .imgbox img{
+        height: 260px;
+    }
+
+    .see {
+        font-size: 14px;
+        width: 13%;
+    }
+
+    .work a{
+        margin-left: 320px;
+    }
+
+    footer{
+        height: 40px;
+        margin-top: 10px;
+    }
+
+
+    .footertext p{
+        font-size: 14px;
+        padding-left: 200px;
+        padding-top: 16px;
+    }
+
+    .social{
+        padding-left: 60px;
+        padding-top: 14px;
+    }
+
+    .social a{
+        padding: 8px;
+    }
+}
+
+@media (max-width: 321px){
+    .site{
+        height: 280px;
+        }
+
+    nav{
+            height: 50px;
+            border-radius: 0;
+        }
+
+        .logo{
+            height: 50px;
+        }
+
+        .logo img{
+            height: 40px;
+            width: 90%;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+        .menu{
+            height: 50px;
+            display: none;
+        }
+
+        .menu ul{
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .menubtn{
+            display: block;
+        }
+}
